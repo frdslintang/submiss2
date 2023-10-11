@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:menuCategory="container">
+        <item
+            android:id="@+id/favorite_menu"
+            android:icon="@drawable/ic_favorite_main"
+            android:orderInCategory="100"
+            android:title="Favorite"
+            app:showAsAction="always" />
+
+        <item
+            android:id="@+id/setting_menu"
+            android:icon="@drawable/ic_settings"
+            android:orderInCategory="100"
+            android:title="Settings"
+            app:showAsAction="always" />
+    </group>
+</menu>
